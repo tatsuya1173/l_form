@@ -1,0 +1,16 @@
+■WordPress
+https://www.shakenkan.co.jp/beN8uW4H0gC06hUh/wp-login.php
+ID：shakenkan
+パスワード：ZXlaspb$qfY2sDebb*
+
+
+■phpMyAdmin
+http://210.228.161.57/6bbUHzFiwUBCgRv0/phpMyAdmin/
+ユーザー名：hiraga
+パスワード：V3T0q7u0BVORKmol
+
+
+■ベーシック認証
+ID: shakenkan
+PW: puskk2018
+

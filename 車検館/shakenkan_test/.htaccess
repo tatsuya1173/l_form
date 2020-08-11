@@ -1,0 +1,17 @@
+AddType image/svg+xml .svg .svgz
+AddEncoding gzip .svgz
+
+AuthUserfile /var/www/html/campro_jp/shakenkan/.htpasswd
+AuthGroupfile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /shakenkan/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /shakenkan/index.php [L]
+</IfModule>
