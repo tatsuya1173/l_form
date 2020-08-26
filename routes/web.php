@@ -13,9 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/confirm', function () {
-    return view('confirm');
-});
+Route::get('index', 'FrontController@index');
+Route::get('confirm', 'FrontController@confirm');

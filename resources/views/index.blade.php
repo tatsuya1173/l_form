@@ -41,7 +41,7 @@
             }
 
             .content {
-                text-align: center;
+                /* text-align: center; */
             }
 
             .title {
